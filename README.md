@@ -17,7 +17,7 @@ The following endpoints are available for interacting with the API :
 3. `GET /musics/{id}` : This endpoint returns a specific music entry, based on the ID passed in the URL.
 4. `POST /musics` : This endpoint allows you to create a new music entry. The entry must be in JSON format, and include a "title" and "artist" field.
 5. `PUT /musics/{id}` : This endpoint allows you to update an existing music entry, based on the ID passed in the URL. The updated entry must be in JSON format.
-6. `DELETE /music/{id}` : This endpoint allows you to delete an existing music entry, based on the ID passed in the URL.
+6. `DELETE /musics/{id}` : This endpoint allows you to delete an existing music entry, based on the ID passed in the URL.
 
 ## Note 
 This is just a first version and it does not have a database integration. This can be added in further versions to persist the data.
