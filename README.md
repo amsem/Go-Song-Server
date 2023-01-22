@@ -4,9 +4,15 @@ This is a simple CRUD REST API for music written in Go. It allows for basic oper
 ## Getting Started
 To get started with this API, you will need to have Go ,Git and Postman installed on your machine. Once you have these tools installed, you can clone the repository and run the API.
 
-`git clone https://github.com/amsem/Go-Song-Server.git`
-`cd Go-Song-Server`
-`go run main.go`
+```bash
+git clone https://github.com/amsem/Go-Song-Server.git
+```
+```bash
+cd Go-Song-Server
+```
+```bash
+go run main.go
+```
 
 ### The API now will run at port 8000
 
